@@ -1,6 +1,6 @@
 # Test Project
 
-  Project about simple readme file generation
+  JavaScript Readme Generator for github based on user inputs
 
   ## Installation
 
@@ -20,7 +20,7 @@
 
 
   ## Contributing
-  Please feel free to contribute this project, but please create seperate branches for each commit
+  Please feel free to contribute
 
 
 
@@ -33,4 +33,4 @@
   ## Questions
 
   If you have Any question please don't hesitate to contact
- [Gatis Jansons](bobsters.lol@gmail.com)
+ (mailto:bobsters.lol@gmail.com) or reach out to me in https://github.com/RexActor
