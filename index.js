@@ -17,8 +17,8 @@ const questions = [
   },
   {
     type: "input",
-    name: "name",
-    message: "What is your full name?",
+    name: "githubUsername",
+    message: "What is your github username?",
   },
   {
     type: "input",
@@ -59,7 +59,8 @@ function writeToFile(fileName, data) {}
 // function to initialize program
 function init() {
   inquirer.prompt(questions).then((response) => {
-    console.log(response);
+    console.log(generateMarkdown(response));
+    // console.log(response);
   });
 }
 
