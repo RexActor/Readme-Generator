@@ -59,15 +59,20 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  var rootDir = path.dirname(require.main.filename);
+  fs.writeFile(`${rootDir}/${fileName}`, generateMarkdown(data), (err) =>
+    err ? console.log(err) : console.log(`Readme Created!`)
+  );
+}
 
 // function to initialize program
 function init() {
   inquirer.prompt(questions).then((response) => {
-    console.log(generateMarkdown(response));
-    // console.log(response);
+    writeToFile("README.md", response);
   });
 }
 
+console.log(path.dirname(require.main.filename));
 // function call to initialize program
 init();
