@@ -1,19 +1,19 @@
-# test
+# readme Generator
 
-  test
+  Simple Readme.md File generator with Js. Appliction generates file based on user inputs
 
   ## Table Of Contents
-  [Installation](https://github.com/test/test#Installation)
+  [Installation](https://github.com/RexActor/Readme-Generator#Installation)
 
-  [Usage](https://github.com/test/test#Usage)
+  [Usage](https://github.com/RexActor/Readme-Generator#Usage)
 
-  [Tests](https://github.com/test/test#Tests)
+  [Tests](https://github.com/RexActor/Readme-Generator#Tests)
 
-  [Contributing](https://github.com/test/test#Contributing)
+  [Contributing](https://github.com/RexActor/Readme-Generator#Contributing)
 
-  [License](https://github.com/test/test#License)
+  [License](https://github.com/RexActor/Readme-Generator#License)
 
-  [Questions](https://github.com/test/test#Questions)
+  [Questions](https://github.com/RexActor/Readme-Generator#Questions)
 
 
 
@@ -21,22 +21,22 @@
   ## Installation
 
   ```bash
-  test
+  npm init -y
   ```
 
   ## Usage
   ```bash
-  test
+  node index.js
   ```
 
   ## Tests
   ```bash
-  test
+  N/A
   ```
 
 
   ## Contributing
-  test
+  Please feel free to contribute in any way
 
 
   ## License
@@ -46,6 +46,6 @@
   ## Questions
 
   If you have Any question please don't hesitate to contact
- [Email Me](mailto:test) or reach out to me in 
- [Github](https://github.com/test)
+ [Email Me](mailto:bobsters.lol@gmail.com) or reach out to me in 
+ [Github](https://github.com/RexActor)
 
