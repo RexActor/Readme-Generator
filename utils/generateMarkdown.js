@@ -4,6 +4,22 @@ function generateMarkdown(data) {
 
   ${data.description}
 
+  ## Table Of Contents
+  [Installation](https://github.com/${data.githubUsername}/${data.repositoryName}#Installation)
+
+  [Usage](https://github.com/${data.githubUsername}/${data.repositoryName}#Usage)
+
+  [Tests](https://github.com/${data.githubUsername}/${data.repositoryName}#Tests)
+
+  [Contributing](https://github.com/${data.githubUsername}/${data.repositoryName}#Contributing)
+
+  [License](https://github.com/${data.githubUsername}/${data.repositoryName}#License)
+
+  [Questions](https://github.com/${data.githubUsername}/${data.repositoryName}#Questions)
+
+
+
+
   ## Installation
 
   \`\`\`bash
