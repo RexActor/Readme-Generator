@@ -25,9 +25,6 @@ function generateMarkdown(data) {
   ${data.contributing}
 
 
-
-
-
   ## License
   [${data.license}](https://choosealicense.com/licenses/${data.license})
 
@@ -35,7 +32,8 @@ function generateMarkdown(data) {
   ## Questions
 
   If you have Any question please don't hesitate to contact
- (mailto:${data.email}) or reach out to me in https://github.com/${data.githubUsername}
+ [Email Me](mailto:${data.email}) or reach out to me in 
+ [Github](https://github.com/${data.githubUsername})
 
 `;
 }
